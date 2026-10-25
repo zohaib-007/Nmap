@@ -87,14 +87,16 @@ To preserve your assessment data for formal compliance reports or importing into
 ## Step 5: Understanding Port State Results
 When analyzing your Markdown data tables, pay close attention to how Nmap labels the state of an open port:
 
-                Port State	                       Technical Meaning                         	Action Step
-                  Open	            An application is actively accepting           Investigate service versions for known exploits.
+                Port State	                     Technical Meaning                           	Action Step
+                 
+				  Open	            An application is actively accepting           Investigate service versions for known exploits.
                                               connection packets.	
-                  Closed	          The port is accessible but no service          Safe, but confirms host availability.
+                  Closed	        The port is accessible but no service          Safe, but confirms host availability.
                                                 is listening.	
-                  Filtered	         A firewall or network filter is blocking      Requires firewall evasion strategies.
+                  Filtered	        A firewall or network filter is blocking       Requires firewall evasion strategies.
                                                   the probe.	                      
-Unfiltered	The port is accessible, but Nmap cannot determine if it is open or closed.	Use alternative scan types like ACK scans.
+                  Unfiltered	    The port is accessible, but Nmap cannot        Use alternative scan types like ACK scans.
+				                        determine if it is open or closed.	
 
 
 
