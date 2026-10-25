@@ -12,12 +12,15 @@ Nmap is pre-installed on all core versions of Kali Linux. You can immediately ve
 
                                                             nmap --version
 
+<p align="center">
+  <img src="nver.png">
+</p>
+
 **3\. Open the general help directory to view foundational scan flags**
 
                                                               nmap --help
-<p align="center">
-  <img src="version.png">
-</p>
+<img width="1014" height="530" alt="image" src="https://github.com/user-attachments/assets/7faed47a-e02b-4e12-bb82-32867e7866ec" />
+
 
 ## Step 2: Foundational Scan Syntax
 The primary command structure for running an infrastructure mapping job is:
