@@ -16,7 +16,7 @@ Nmap is pre-installed on all core versions of Kali Linux. You can immediately ve
 
                                                               nmap --help
 <p align="center">
-  <img src="n_version.png">
+  <img src="version.png">
 </p>
 
 ## Step 2: Foundational Scan Syntax
