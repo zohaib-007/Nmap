@@ -16,7 +16,7 @@ Nmap is pre-installed on all core versions of Kali Linux. You can immediately ve
 
                                                               nmap --help
 <p align="center">
-  <img src="YOUR_IMAGE_URL">
+  <img src="n_version.png">
 </p>
 
 ## Step 2: Foundational Scan Syntax
@@ -35,7 +35,7 @@ legally provided by the developer: scanme.nmap.org.
                                                          sudo nmap -sS scanme.nmap.org
 
 <p align="center">
-  <img src="YOUR_IMAGE_URL">
+  <img src="nmap_org_scan.png">
 </p>
 
 Analyzing the Output
@@ -58,7 +58,7 @@ automated run
 
                                                        sudo nmap -A scanme.nmap.org
 <p align="center">
-  <img src="YOUR_IMAGE_URL">
+  <img src="-A.png">
 </p>
 
 
